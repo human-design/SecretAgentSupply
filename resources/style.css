@@ -332,4 +332,8 @@ h3 {
   .locationcontainer {
     justify-content: center;
   }
+
+  .footercontainer {
+    justify-content: center;
+  }
 }
