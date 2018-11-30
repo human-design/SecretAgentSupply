@@ -108,6 +108,10 @@ h3 {
   color: white;
 }
 
+.mobilenav {
+  display: none;
+}
+
 /* Product Grid section */
 
 #productgrid {
@@ -215,5 +219,117 @@ h3 {
   justify-content: flex-start;
   align-items: center;
 
+}
 
+/* Responsive design */
+
+@media only screen and (max-width: 1024px) {
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .mainnav  {
+    display: none;
+  }
+
+  .mobilenav {
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .gridcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .product img {
+    width: 50%;
+    height: 9rem;
+  }
+
+  .glasses {
+    margin-top: 2rem;
+  }
+
+  .locationcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .locationhour {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  h2 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  #banner {
+    height: 15rem;
+  }
+
+  .bannerbox {
+    top: 10rem;
+    margin-bottom: 2rem;
+  }
+
+  .bannertext {
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  .gridcontainer {
+    justify-content: center;
+  }
+  .product {
+    width: 90%;
+  }
+
+  .product img {
+    width: 60%;
+    height: 9rem;
+  }
+
+  .watch {
+    margin-top: 2rem;
+  }
+
+  .locationhour {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .locationcontainer {
+    justify-content: center;
+  }
 }
