@@ -1,0 +1,86 @@
+html {
+  font-size: 18px;
+}
+
+/* Header  */
+header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.brand {
+  display: flex;
+  width: 960px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.brand img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+/* Main banner */
+
+#banner {
+  background-image: url("images/banner.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.boxcontainer {
+  display: flex;
+  width: 960px;
+  height: 25rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bannerbox {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 20rem;
+  background-color: black;
+  top: 9rem;
+}
+
+.bannertext {
+  color: white;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-block-end: 1rem;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
