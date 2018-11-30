@@ -1,5 +1,6 @@
 html {
   font-size: 18px;
+  font-family: Helvetica;
 }
 
 /* Header  */
@@ -82,5 +83,26 @@ h3 {
   font-family: Helvetica;
   font-size: 2rem;
   font-weight: bold;
+}
 
+/* Navigation */
+#nav {
+  width: 100%;
+  background-color: firebrick;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.mainnav {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.mainnav a {
+  color: white;
 }
